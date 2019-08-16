@@ -33,7 +33,7 @@ app.get('/', (request, response) => {
 // activates all paths; this is a catch all for when you've 
 // already tried all other paths.  If they don't work, this is where it will end up
 app.use('*', (request, response) => {
-  response.send('Sorry, that route does note exist');
+  response.send('Sorry, that route does not exist');
 })
 
 // goes into .env, finds PORT value, processes that value
