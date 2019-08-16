@@ -1,0 +1,73 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+#main {
+  margin-left: 375px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
+}
+
+section, article {
+  margin-bottom: 3em;
+}
+
+.image {
+  display: inline-block;
+  border: 0;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+}
+
+.image.avatar48 {
+  width: 48px;
+  height: 48px;
+  background: #f00;
+}
+
+.image.avatar48 img {
+  width: 48px;
+  height: 48px;
+}
+
+.image.fit {
+  display: block;
+  width: 100%;
+}
+
+.image.featured {
+  display: block;
+  width: 100%;
+  margin: 0 0 2em 0;
+}
+
+.image.left {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+
+.image.centered {
+  display: block;
+  margin: 0 0 2em 0;
+}
+
+.image.centered img {
+  margin: 0 auto;
+  width: auto;
+}
