@@ -663,7 +663,7 @@ table tfoot {
 
 			#main > section.dark {
 				color: #ddd;
-				color: rgb(10, 10, 10);
+				color: rgb(7, 5, 5);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -692,7 +692,7 @@ table tfoot {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/abstract.jpg");
+				background-image: url("../../images/abstractpink2.jpg");
 			}
 
 			#main > section.two {
