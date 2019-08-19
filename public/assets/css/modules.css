@@ -686,18 +686,31 @@ table tfoot {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 5em 0;
 				background-size: cover;
 				background-position: center center;
 			}
 
-			#main > section.one {
+			/* #main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/abstractpink2.jpg");
-			}
+      } */
+      
+
+      #video-header {
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        bottom: 100px;
+        width: 50%;
+        min-height: 100%;
+        min-width: 100%;
+       }
 
 			#main > section.two {
-				background-color: #ffffff;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
 			}
 
 			#main > section.three {
@@ -708,7 +721,5 @@ table tfoot {
 				background-color: #fff7ff;
       }
       
-      #headerToggle {
-        display: none;
-      }
+     
     
